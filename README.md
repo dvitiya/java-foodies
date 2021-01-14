@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>java foodies</title>
         <link rel="stylesheet" href="stylesheet.css">
+         <link rel="responsive.css">
     </head>
     
     <body>
