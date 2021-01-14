@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+  padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(164, 147, 147,0.9);
+    color: #f1e8e8;
+    height: 95px;
+    width: 100%;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo {
+    font-size: 36px;
+    font-family: fantasy;
+    padding: 20px 40px;
+    float:left;
+}
+
+
+.header-list li {
+    font-family: Garamond, serif;
+    font-size: 22px;
+    float: left;
+    padding: 33px 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+.main{
+    background-image: url(bg-food2.jpg);
+    background-size:cover;
+    padding: 100 0 200 0;
+    text-align:left;
+    color: #3f281e;
+}
+
+.container{
+    width: 100%;
+    padding:0 15px;
+    margin:0 auto;
+  }
+.atas{
+    padding-top: 95px;
+}
+
+.atas p{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.atas h1{
+    font-size: 50px;
+    letter-spacing:5px;
+    margin-bottom:10px;
+}
+
+.atas span{
+    color:crimson;
+}
+
+.content{
+    text-align: center;
+    background-color: #f7f7f7
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+    color: #3f281e;;
+  }
+
+.gambar{
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.pilih-makanan{
+    float: left;
+    width: 25%;
+}
+.foodies-icon{
+    color: #3f281e;
+    font-size: 20px;
+    position: relative;
+}
+
+.foodies-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+}
+
+.foodies-icon span{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    display: block;
+    top: 0;
+    margin-left: 192px;
+    line-height: 200px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    /* text-shadow: 1px 1px 1px #ddd; */
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.foodies-icon:hover span {
+    opacity: 1;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #3f281e;
+  }
+
+.txt-contents span{
+    color: darkred;
+    font-weight: bold;
+}
+
+footer {
+    display: block;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+  }
+  footer {
+  bottom: 0px;
+  width: 100%;
+  background: rgb(164, 147, 147,0.9);
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+  background: rgb(164, 147, 147,0.9);
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+  background: rgb(164, 147, 147,0.9);
+}
+.left .content p{
+  text-align: justify;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #000000;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #FFE4E1;
+  padding-left: 10px;
+  border: 1px solid #FFE4E1;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #FFE4E1;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #FFE4E1;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: #f1e8e8;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #FFE4E1;
+  text-decoration: none;
+}
+div {
+    display: block;
+}
+.clear {
+  clear: left;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .pilih-makanan {
+    width: 50%;
+   margin-bottom: 50px;
+  }
+
+.head {
+  margin-left: 15px;
+}
+.header-list li {
+  font-size: 15px;
+}
+.foodies-icon span {
+  margin-left: 95px;
+}
+  .heading h2 {
+    font-size: px;
+  }
+
+footer{
+  position: relative;
+  bottom: 0px;
+}
+.main-content{
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.main-content .box{
+  margin: 5px 0;
+}
+.bottom {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 670px) {
+  .pilih-makanan {
+    width: 100%;
+  }
+  .header-list li {
+  display: none;
+  }
+
+.header {
+  height: 18s0spx;
+  width: 100%
+  margin-left: 60px;
+}
+
+.header-logo {
+  font-size: 32spx;
+  margin-left: 5px;
+}
+
+
+.heading h2 {
+  font-size 32px;
+}
+
+  .btn {
+    width: 100%;
+}
+
+
+  .heading {
+   text-align: left;
+ }
+
+.main {
+  text-align: left;
+  padding-top: 130px;
+}
+  .main h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+.foodies-icon span {
+margin-left: 73px
+}
+
+  .main p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+.footer {
+position: relative;
+text-align: center;
+margin-left: 2ss0px;
+}
+.bottom {
+  margin-left: 35px;
+}
+}
