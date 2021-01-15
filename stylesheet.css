@@ -93,7 +93,26 @@ h1, h2, h3 {
     width: 200px;
     border-radius: 50%;
 
-}
+ @keyframes animateCircle {
+   0% {
+     transform: rotate(0deg);
+   }
+
+   100% {
+     transform: rotate(360deg);
+   }
+ }
+
+ @keyframes animate {
+   0% {
+     transform: rotate(45deg);
+   }
+
+   100% {
+     transform: rotate(405deg);
+   }
+ }
+
 
 .pilih-makanan{
     float: left;
